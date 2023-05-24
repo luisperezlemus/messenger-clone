@@ -27,7 +27,9 @@ const AvatarGroup: React.FC<AvatarGroupProps> = ({
             w-11
         ">
             {slicedUsers.map((user, index) => (
-                <div className={`
+                <div 
+                    key={index}
+                    className={`
                     absolute
                     inline-block
                     rounded-full
@@ -40,7 +42,6 @@ const AvatarGroup: React.FC<AvatarGroupProps> = ({
                         alt="Avatar"
                         fill
                         src={user?.image || "/images/placeholder.jpg"}
-
                     />
                 </div>
             ))}
