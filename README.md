@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+## General Overview
+I followed this tutorial on creating a Messenger clone: https://youtu.be/PGPGcKBpAk8. 
+I was primarily focused on learning how to work with a database and through this
+tutorial I was able to learn more about MongoDB and how to create a database, add, remove,
+and modify objects in it. Additionally, I learned some of the general syntax for TypeScript 
+which I plan to learn separaretly in the near future. 
+
 ## Getting Started
 
 First, run the development server:
