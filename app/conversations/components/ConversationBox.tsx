@@ -54,7 +54,7 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
 
         if (lastMessage?.body) return lastMessage.body
 
-        return "Start a conversation"
+        return "Started a conversation"
     }, [lastMessage])
 
     return (
